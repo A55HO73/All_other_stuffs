@@ -29,7 +29,7 @@ for ix in range(im_width):
             z = z**2 + c
             nit += 1
 
-        shade = 1-np.sqrt(nit/nit_max)
+#        shades = 1-np.sqrt(nit/nit_max)
         ratio = nit/nit_max
         julia[ix,iy] = ratio
 
