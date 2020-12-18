@@ -12,7 +12,7 @@ int main(void)
     	for(i=0;i<20;i++)
     	{
     		usleep(200000-k*50000);
-		    system("cls");
+		    system("cls");   # if you are on a linux machine replace **cls** with **clear**
 		    printf("\n");
 			printf("\n");
 		    printf("8");
