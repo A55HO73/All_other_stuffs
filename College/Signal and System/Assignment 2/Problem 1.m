@@ -18,56 +18,61 @@ steps = 0.01;
 #starting from 0 to 3
 t = 0:steps:3;
 
-(a)
+#(a)
 figure;
 #defining the signal x(t)
 x= t .*sin(2*pi*t);
 plot(t,x);
 title("x(t)");
+#please check a2p1_1.jpg for the plot
 
 
-(b)
+#(b)
 figure;
 #defining x(-t)
 x_nvg = -t .*sin(2*pi*(-t));
 plot(-t,x_nvg);
 title("x(-t)")
+#please check a2p1_2.jpg for the plot
 
-
-(c) 
+#(c) 
 figure
 #ploting x(4t)
 a = 4;
 plot((1/a)*t, x);
 title("x(4t)")
+#please check a2p1_3.jpg for the plot
 
-(d)
+#(d)
 figure;
 #ploting x(.3t)
 a = 0.3;
 plot((1/.3)*t, x);
 title("x(.3t)")
+#please check a2p1_4.jpg for the plot
 
-(e)
+#(e)
 figure;
 #ploting x(t+2)
 t0 = 2
 plot(t -t0,x);
 title("x(t+2)")
+#please check a2p1_5.jpg for the plot
 
 
-(f)
+#(f)
 figure;
 #ploting x(t-3)
 t0 = -3;
 plot(t - t0, x);
 title("x(t-3)")
+#please check a2p1_6.jpg for the plot
 
-
-(g)
+#(g)
 figure;
 #ploting x(1- 3t)   or x(-3(t - 1/3))
 t0 = -1/3
 a = -3
 plot((1/a)*(t- t0), x)
 title("x(1- 3t)")
+#please check a2p1_7.jpg for the plot
