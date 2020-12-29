@@ -6,7 +6,7 @@
 #(d) Plot the signal y(t) = xe(t) + xo(t)
 #Use subplot 2x2 format
 
-
+#for the plots please open the jpg file named a2p3.jpg
 
 
 #definig steps
